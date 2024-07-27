@@ -143,11 +143,11 @@
      }
       
      img {
-      
+      width: 100%;
      }
       
      figure {
-      
+      margin: 0;
      }
       
      address {
@@ -170,6 +170,10 @@
     padding: 15px 0;
     background: #202322;
   }
+
+  header img {
+    display: flex;
+  }
   
   header .content-wrapper {
     display: flex;
@@ -177,6 +181,7 @@
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+    width: 60%;
   }
   
   .header-divider {
@@ -247,7 +252,7 @@
   .hero-area {
     display: flex;
     justify-content: center;
-    background: url(../img/unplugged-retreat.jpg) no-repeat #527158; 
+    background: url(../img/unplugged-retreat.jpg) center no-repeat #527158; 
     background-size: cover;
   }
   
@@ -487,8 +492,8 @@
     }
   
     header .content-wrapper {
-      width: 100%;
       justify-content: space-between;
+      width: 100%;
     }
   
     header nav {
@@ -615,6 +620,10 @@
   padding: 15px 0;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   /* Hero Styles */
   .hero-area h1 {
     width: 80%;
@@ -727,4 +736,4 @@
       page-break-after: avoid;
     }
   }
-  
+}
